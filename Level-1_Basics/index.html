@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Level 1 - Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="displayGreeting()">
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <section class="content-section">
+            <h1>Welcome to Cognifyz Technologies</h1>
+            <p>Where Data Meets Intelligence. We specialize in providing cutting-edge data solutions.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Tech Background" class="main-img">
+        </section>
+
+        <section class="form-section">
+            <h3>Stay Updated</h3>
+            <form id="basicForm">
+                <input type="text" placeholder="Enter your name" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="js-tasks">
+            <h2>JavaScript Interactivity</h2>
+            
+            <button id="colorBtn">Change My Color</button>
+
+            <div class="calculator">
+                <h3>Basic Adder</h3>
+                <input type="number" id="num1" placeholder="First Number">
+                <span> + </span>
+                <input type="number" id="num2" placeholder="Second Number">
+                <button onclick="calculateSum()">Calculate</button>
+                <p>Result: <strong id="result">0</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

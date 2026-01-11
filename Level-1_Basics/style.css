@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Task 1: Navigation Styling */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Task 1: Image Styling */
+.main-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Task 1: Form Styling */
+.form-section {
+    margin: 40px 0;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Task 2: Calculator Styling */
+.calculator {
+    background: #f4f4f4;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#colorBtn {
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
