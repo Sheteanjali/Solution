@@ -5,11 +5,11 @@ function displayGreeting() {
     let greeting;
 
     if (hour < 12) {
-        greeting = "Good Morning! Welcome to Level 1.";
+        greeting = "Good Morning!";
     } else if (hour < 18) {
-        greeting = "Good Afternoon! Welcome to Level 1.";
+        greeting = "Goood Morning.";
     } else {
-        greeting = "Good Evening! Welcome to Level 1.";
+        greeting = "Good Evening! .";
     }
 
     alert(greeting);
